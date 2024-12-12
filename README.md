@@ -330,4 +330,3 @@ public interface ParticipationRepository extends JpaRepository<Participation, Lo
 For questions or feedback, please contact:
 ```info
 Email: alain.nitunga@helb-prigogine.be
-
