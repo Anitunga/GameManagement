@@ -1,6 +1,5 @@
 package com.example.demo.Entity;
 
-import com.example.demo.DTO.PlayerDTO;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -16,7 +15,7 @@ public class Participation {
     @JoinColumn(name = "game_id", nullable = false)
     private Game game;
 
-    //@ManyToOne
+    // @ManyToOne
     @JoinColumn(name = "player_id", nullable = false)
     private long playerID;
 

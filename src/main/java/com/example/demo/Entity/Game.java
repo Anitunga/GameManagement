@@ -2,8 +2,6 @@ package com.example.demo.Entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
-//import com.example.playerdemo.Entity.Player;
-import com.example.demo.DTO.PlayerDTO;
 
 import java.util.Date;
 import java.util.List;
