@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public class ParticipationDAO implements DAO<Participation> {
+public class ParticipationDAO implements IDAO<Participation> {
 
     @Autowired
     private ParticipationRepository participationRepository;
@@ -30,7 +30,7 @@ public class ParticipationDAO implements DAO<Participation> {
     }
 
     @Override
-    public void delete(Object t) {
-        participationRepository.delete(t);
+    public void delete(Participation participation) {
+        participationRepository.delete(participation);
     }
 }
